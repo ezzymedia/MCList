@@ -1,0 +1,543 @@
+
+{
+	"global": {
+		"lang"					:	"DE",
+		"submit_button"			:	"Abschicken",
+		"save"					:	"Speichern",
+		"delete"				:	"L&ouml;schen",
+		"edit"					:	"Bearbeiten",
+		"enable"				:	"Aktivieren",
+		"disable"				:	"Deaktivieren",
+		"show_more"				:	"Weitere anzeigen",
+		"show_all"				:	"Zeige alle Eintr&auml;ge",
+		"language"				:	"Sprache",
+		"close"					:	"Schlie&szlig;en",
+		"online"				:	"Online",
+		"offline"				:	"Offline",
+		"report"				:	"Melden",
+		"search"				:	"Suchen...",
+		"search_view_all"		:	"Zeige alle Ergebnisse",
+		"go_back_button"		:	"Gehe zur&uuml;ck",
+		"verified"				:	"Gepr&uuml;fter Benutzer",
+		"yes"					:	"Ja",
+		"no"					:	"Nein",
+		"register"				:	"Registrieren",
+		"login"					:	"Anmelden",
+		"advert"				:	"Gesponsert",
+		"advertise"				:	"Hier werben?",
+		"days"					:	"Tage",
+		"hours"					:	"Stunden",
+		"minutes"				:	"Minuten",
+		"seconds"				:	"Sekunden",
+
+		"message_type": {
+			"error"			:	"Fehler!",
+			"info"			:	"Info!",
+			"success"		:	"Erfolgreich!",
+			"warning"		:	"Warnung"
+		},
+
+		"info_message": {
+			"confirm_delete"			:	"Bist du dir sicher, dass du diesen Eintrag l&ouml;schen m&ouml;chtest ?"
+		},
+
+		"success_message": {
+			"basic"						:	"Befehl wurde erfolgreich ausgef&uuml;hrt !",
+			"account_activated"			:	"Dein Benutzerkonto wurde erfolgreich aktiviert - Du kannst dich nun mit deinen Zugangsdaten anmelden :)",
+			"server_added"				:	"Dein Server wurde erfolgreich hinzugef&uuml;gt! Du kannst nun weitere Details in der Serverbearbeitung einstellen.",
+			"server_edited"				:	"Neue Serverdaten gespeichert !",
+			"cover_uploaded"			:	"Servercover erfolgreich hochgeladen !",
+			"profile_cover_uploaded"	:	"Profilcover erfolgreich hochgeladen !",
+			"voted"						:	"Danke, dass du dir die Zeit genommen hast um abzustimmen !",
+			"stream_saved"				:	"Dein Eintrag wurde gespeichert !",
+			"stream_deleted"			:	"Dein Eintrag wurde gel&ouml;scht !"
+		},
+
+		"error_message": {
+			"empty_fields"				:	"Bitte f&uuml;lle alle Felder aus!",
+			"invalid_captcha"			:	"Die Sicherheitspr&uuml;fung schlug fehl!",
+			"invalid_file_type"			:	"Ung&uuml;ltiger Dateityp !",
+			"invalid_image_size"		:	"You're uploaded image is exceeding the size limit ( %s ) !",
+			"invalid_token"				:	"Die Aktion konnte nicht ausgef&uuml;hrt werden, da der Sicherheitscode abgelaufen ist, bitte versuche es erneut !",
+			"command_denied"			:	"You don't have access to this command !",
+			"page_access_denied"		:	"Du musst dich <a href=\"register\" target=\"_top\">registrieren</a> oder <a href=\"login\" target=\"_top\">anmelden</a> um Zugriff auf diese Seite zu erhalten!",
+			"logged_in"					:	"Du bist bereits angemeldet !",
+			"invalid_account"			:	"Dieses Benutzerkonto existiert nicht !",
+			"invalid_server"			:	"Dieser Server existiert leider nicht !",
+			"private_server"			:	"Dieser Server ist aktuell Privat !",
+			"basic"						:	"We could not perform your requested command !",
+			"system_issues"				:	"There are some system issues at the moment, please contact an admin and tell him about this problem.",
+			"servername_length"			:	"Der Servername sollte aus mindestens 5 und maximal 45 Zeichen bestehen.",
+			"description_length"		:	"Der Untertitel sollte aus mindestens 5 und maximal 64 Zeichen bestehen.",
+			"serveraddress"				:	"Bitte gebe eine Serveradresse an.",
+			"server_exists"				:	"Der Server existiert bereits in unserer Datenbank - Bitte w&auml;hle einen anderen.",
+			"server_offline"			:	"Der Server ist nicht online und kann daher nicht eingetragen werden! Bitte stelle sicher, dass dieser erreichbar ist und versuche es erneut.",
+			"cover_upload_fail"			:	"Hochladen des Servercovers fehlgeschlagen!",
+			"profile_cover_upload_fail"	:	"Hochladen des Profilcovers fehlgeschlagen!",
+			"unknown_invite"			:	"Dies ist kein g&uuml;ltiger Einladungslink.",
+			"already_voted"				:	"Du hast innerhalb der letzten 24 Std. bereits deine Stimme abgegeben !",
+			"vote_error"				:	"Wir hatten ein paar Probleme deine Stimme an den Votifier des Servers weiterzugeben !"
+		},
+
+		"menu": {
+			"home"						: 	"Startseite",
+			"logout"					:	"Logout",
+			"news"						:	"Neuigkeiten",
+			"serverlist"				:	"Serverliste",
+			"random_server"				:	"Zufalls Server",
+			"account"					:	"Benutzerkonto",
+			"favorites"					:	"Favoriten",
+			"servers"					:	"Meine Server",
+			"profile"					:	"Konto Einstellungen",
+			"profile_details"			:	"Profildetails",
+			"avatar_cover"				:	"Avatar / Profilcover",
+			"signature"					:	"Signatur",
+			"change_password"			:	"Passwort &auml;ndern",
+			"servers_add"				:	"Server eintragen",
+			"shop"						:	"Shop",
+			"privacy"					:	"Datenschutzrichtlinien",
+			"imprint"					:	"Impressum",
+			"terms"						:	"Nutzungsbedingungen",
+			"api"						:	"Entwickler API"
+		}
+	},
+	
+	"index": {
+		"title"							:	"Minecraft Serverliste",
+		"pagetitle"						:	"Deine Minecraft Serverliste",
+
+		"display": {
+			"server_of_day"				:	"Server des Tages",
+			"new_server"				:	"<i class=\"si si-paper-clip\"></i> Neu",
+			"players_online"			:	"Spieler Online",
+			"active_servers"			:	"Aktive Server",
+			"votes"						:	"Stimmen diesen Monat",
+			"users"						:	"Registrierte Benutzer",
+			"new_servers"				:	"Neuste Eintr&auml;ge",
+			"call_title"				:	"Jetzt neuen Server eintragen!",
+			"call_subtitle"				:	"Erfahre hier mehr &uuml;ber die Vorteile f&uuml;r einen Eintrag bei uns",
+			"call_button"				:	"<i class=\"si si-info\"></i> Mehr erfahren",
+			"top4"						:	"Top 4",
+			"your_favorites"			:	"Meine Favoriten",
+			"no_favorites"				:	"Du hast noch keine Favoriten gespeichert",
+			"reg_favorites"				:	"Du musst angemeldet sein,<br>um diese Funktion nutzen zu k&ouml;nnen.",
+			"news_headline"				:	"Neuigkeiten",
+			"news_readmore"				:	"weiterlesen",
+			"news_more"					:	"Zeige alle Neuigkeiten",
+			"next_reset"				:	"N&auml;chster Votereset",
+			"new_users"					:	"Neue Benutzer",
+			"register_now"				:	"Jetzt registrieren",
+			"register_community"		:	"Werde Teil der Community"
+		}
+
+	},
+	
+	"server": {
+		"status_online"						:	"Online",
+		"status_offline"					:	"Offline",
+		"status_private"					:	"Privat",
+		"status_active"						:	"Aktiv",
+		"status_disabled"					:	"Deaktiviert",
+		"general_status"					:	"Status",
+		"general_address"					:	"IP Adresse",
+		"general_connection_port"			:	"Port",
+		"general_last_check"				:	"Gepr&uuml;ft",
+		"general_previous_check"			:	"Zuletzt gepr&uuml;ft",
+		"general_category"					:	"Kategorie",
+		"general_owner"						:	"Eigent&uuml;mer",
+		"general_from_online_players"		:	"von",
+		"general_online_players"			:	"Spieler",
+		"general_votes"						:	"Stimmen",
+		"general_maximum_online_players"	:	"Max. Slots",
+		"general_used_slots"				:	"genutzte Slots",
+		"general_country"					:	"Sprache",
+		"general_uptime"					:	"Erreichbarkeit",
+		"motd"								:	"MOTD",
+		"server_version"					:	"Serverversion",
+		"no_description"					:	"Leider keine Beschreibung vorhanden.",
+		"btn_vote"							:	"Abstimmen",
+		"btn_review"						:	"Bewertung schreiben",
+		"btn_favorite"						:	"Als Favorit",
+		"btn_unfavorite"					:	"Entfernen",
+		"review_score"						:	"Gesamtbewertung",
+		"review_login"						:	"Du musst angemeldet sein um eine Bewertung zu schreiben.",
+		"owner"								:	"Wird verwaltet von:",
+
+		"modal": {
+			"vote"				:	"Stimme abgeben",
+			"mcname"			:	"Minecraft Spielername",
+			"infoblock"			:	"Gebe deinen Minecraft Spielernamen ein, mit dem du auf dem Server aktiv bist.<br>Registriere dich bei uns und hinterlege deinen Spielernamen in deinem Profil, so kannst du k&uuml;nftig mit nur einem Klick abstimmen!",
+			"votifier"			:	"Dieser Server unterst&uuml;tzt Votifier - Dein Spielername wird f&uuml;r Belohnungen an den Server &uuml;bermittelt!",
+			"btn_vote"			:	"Abstimmen",
+			"review"			:	"Bewertung schreiben",
+			"btn_review"		:	"Bewertung einreichen"
+
+		}
+	},
+
+	"page": {
+		"not_found": {
+			"pagetitle"				:	"Seite nicht gefunden",
+			"headline"				:	"Die aufgerufene Seite konnte nicht gefunden werden",
+			"button"				:	"Zur&uuml;ck zur Startseite"
+		},
+		"search": {
+			"pagetitle"				:	"Suchen"
+		},
+		"servers": {
+			"pagetitle"				:	"Serverliste",
+			"no_servers"			:	"Keine Eintr&auml;ge gefunden",
+			"you"					:	"Du",
+			"and"					:	"und",
+			"more_less"				:	"gef&auml;llt dieser Server",
+			"more"					:	"weiteren<br>gef&auml;llt dieser Server",
+			"no_favorites"			:	"Zeige als Erste(r),<br>dass dir der Server gef&auml;llt.",
+			"points"				:	"Punkte"
+		},
+		"random": {
+			"pagetitle"				:	"Zuf&auml;lliger Server"
+		},
+		"imprint": {
+			"pagetitle"				:	"Impressum"
+		},
+		"privacy": {
+			"pagetitle"				:	"Datenschutzrichtlinien"
+		},
+		"terms": {
+			"pagetitle"				:	"Nutzungsbedingungen"
+		},
+		"info": {
+			"pagetitle"				:	"Informationen zu deinem Eintrag"
+		},
+		"changelog": {
+			"pagetitle"				:	"Changelog",
+			"introtext"				:	"Hier halten wir euch &uuml;ber &Auml;nderungen am System von MCList auf dem Laufenden. Solltest du einmal Fehler auf unserer Seite entdecken, z&ouml;gere nicht und diese zu melden, damit wir diese auch beheben k&ouml;nnen. Wenn wir bereits entdeckte Fehler behoben haben, werden diese hier aufgef&uuml;hrt. Zudem erhaltet hier auch einen &Uuml;berblick &uuml;ber Aktualisierungen und neuen Features."
+		},
+		"news": {
+			"pagetitle"				:	"Neuigkeiten"
+		},
+		"api": {
+			"pagetitle"				:	"Entwickler API"
+		},
+		"advertise": {
+			"pagetitle"				:	"Werben auf MCList"
+		},
+		"profile" : {
+			"nav_profile"			:	"Profil",
+			"nav_friends"			:	"Freunde",
+			"nav_gallery"			:	"Galerie",
+			"nav_videos"			:	"Videos",
+			"description"			:	"Info",
+			"mcname"				:	"InGame Name",
+			"years"					:	"Jahre",
+			"location"				:	"Herkunft",
+			"job"					:	"Beruf",
+			"about"					:	"&Uuml;ber mich",
+			"no_description"		:	"",
+			"registered"			:	"Beigetreten",
+			"badges"				:	"Community Badges",
+			"links"					:	"Links",
+			"stream"				:	"Stream",
+			"stream_form"			:	"Was gibts neues ?",
+			"stream_none"			:	"Ich bin eine leere Box ...<br>",
+			"servers_listed"		:	"Server eingetragen"
+		},
+		"sub_server": {
+			"pagetitle"						: 	"Server eintragen",
+			"formtitle"						: 	"Server Basisinformationen",
+			"pre_text"						: 	"Hier kannst du deinen Sever in unsere Serverliste eintragen.<br>Beginne hier mit den Basisinformationen zu deinem Server - Weitere Details kannst du sp&auml;ter unter <i><strong>Meine Server</strong></i>, in der Serverbearbeitung nachtragen.<br>Dein Server wird erst als <i><strong>Privat</strong></i> makiert und <u>nicht</u> sofort gelistet. Nach erg&auml;nzen der Serverinformationen kannst du diesen auf <i><strong>&Ouml;ffentlich</strong></i> stellen und dein Server erscheint in der Liste.",
+			"server_name"					:	"Name des Servers",
+			"description_short"				:	"Untertitel",
+			"server_adress"					:	"IP Adresse / Domain",
+			"server_adress_help"			:	"Wie lautet die Adresse zum Server (Kann eine IP, A-Record Eintrag, oder eine SRV Adresse sein)",
+			"server_connection_port"		:	"Server Port",
+			"server_connection_port_help"	:	"Ben&ouml;tigt man einen bestimmten Port zum verbinden? Standartport ist 25565 und wird in der Anzeige ausgeblendet.",
+			"server_query_port"				:	"Query Port",
+			"server_query_port_help"		:	"Der Query Port ist meist gleich dem Serverport - &Auml;ndere diesen wenn er auf einem anderen liegt",
+			"category"						:	"Kategorie ausw&auml;hlen",
+			"country"						:	"Land ausw&auml;hlen",
+			"rules_title"					:	"Eintragsregeln",
+			"rules_1"						:	"Ein Server darf nur vom jeweiligen Betreiber oder dessen verantwortlichen und namentlich genannten Vertreter eingetragen werden.",
+			"rules_2"						:	"Jeder Server darf nur einmal in die Serverliste eingetragen werden. Ausgenommen davon sind Sub-Server, die sich eine IP-Adresse aber nicht den Port teilen und als eigenst&auml;ndiges System agieren.",
+			"rules_3"						:	"Das Serverprofil darf keine rechtswidrigen, diskriminierenden, vulg&auml;re Begriffe enthalten und nicht gegen geltendes Recht versto&szlig;en.",
+			"rules_4"						:	"Alle in das Profil eingepflegten Inhalte (Einschlie&szlig;lich Videos und Grafiken) m&uuml;ssen selbst erstellt werden und d&uuml;rfen keine Rechte Dritter verletzen."
+			
+		},
+		"edit_server": {
+			"pagetitle"				:	"Server bearbeiten",
+			"description_text"		:	" ",
+			"is_private"			:	"Dein Server ist aktuell nicht f&uuml;r andere Besucher sichtbar!<br>Um deinen Server freizugeben, entferne bitte die \"Stelle Server auf privat\" Makierung.",
+			"youtube_id"			:	"YouTube Video ID",
+			"youtube_id_help"		:	"Bindet ein YouTube Video ein (z.B. Servertrailer - watch?v=<strong>VIDEOID</strong>)",
+			"youtube_channel"		:	"YouTube Kanal ID",
+			"youtube_channel_help"	:	"Zur Abfrage von Kanalinformationen<br>(z.B. Abonnenten - YouTube Einstellungen -> Name (Hier auf Erweitert) -> YouTube-Kanal-ID",
+			"youtube_playlist"		:	"YouTube Playlist ID",
+			"youtube_playlist_help"	:	"Bindet eine vorher angelegte Playlist aus deinem Kanal in das Serverprofil ein.<br>(Playlist w&auml;hlen und aus der Adresszeile den XYZ Teil kopieren und eintragen - playlist?list=<strong>XYZ</strong>)",
+			"website"				:	"URL der Webseite",
+			"livemap"				:	"URL zur Livemap",
+			"teamspeak"				:	"Teamspeak",
+			"discord"				:	"Discord",
+			"social_head"			:	"Soziale Netzwerke",
+			"twitter"				:	"Twitter",
+			"twitter_help"			:	"//twitter.com/<strong><u>username</u></strong>",
+			"facebook"				:	"Facebook",
+			"facebook_help"			:	"//facebook.com/<strong><u>username</u></strong>",
+			"instagram"				:	"Instagram",
+			"instagram_help"		:	"//instagram.com/<strong><u>username</u></strong>",
+			"votifier_public"		:	"Votifier Publik Key",
+			"votifier_public_help"	:	"Frei lassen, wenn du keinen Votifier auf dem Server nutzt!",
+			"votifier_ip"			:	"Votifier IP",
+			"votifier_ip_help"		:	"Frei lassen, wenn diese identisch mit der Server IP ist!",
+			"votifier_port"			:	"Votifier Port",
+			"upload_cover"			:	"Servercover hochladen",
+			"choose_cover"			:	"Cover ausw&auml;hlen",
+			"upload_cover_help"		:	"W&auml;hle z.B. ein Screenshot oder eine erstellte Grafik aus.<br>Idealerweise in FullHD (1920x1080 Pixel - Grafik wird ggf. automatisch angepasst)",
+			"private"				:	"Stelle Server auf privat?",
+			"save_settings"			:	"Einstellungen speichern"
+		},
+		"my_servers": {
+			"pagetitle"				:	"Meine Server",
+			"pre_text"				:	"Hier erh&auml;lst du eine &Uuml;bersicht &uuml;ber alle deine Servereintr&auml;ge und kannst diese verwalten.",
+			"no_servers"			:	"Du hast wohl noch keinen Server eingetragen. Um deine Servereintr&auml;ge zu sehen, beginne mit dem <a href=\"submit-server\" class=\"link-effect\" target=\"_top\">eintragen deines Servers</a>."
+		},
+		"my_favorites": {
+			"pagetitle"				:	"Meine Favoriten"
+		}
+	},
+
+
+
+	"profile_settings": {
+		"pagetitle"						:	"Profil Einstellungen",
+		"detailstitle"					:	"Profil Details",
+		"avatartitle"					:	"Avatar &amp; Cover",
+		"signaturetitle"				:	"Signatur einstellen",
+		"passwordtitle"					:	"Passwort &auml;ndern",
+		"header"						:	"Profil Einstellungen",
+		"header_help"					:	"Hier kannst du deine Grunddaten &auml;ndern.<br><br>Deinen Benutzernamen kannst du nur alle 14 Tage &auml;ndern.",
+		"last_change"					:	"Deine letzte &Auml;nderung war am %s",
+		"header2"						:	"Benutzerkonto l&ouml;schen",
+		"header2_help"					:	"Wenn du dein Benutzerkonto l&ouml;scht, werden alle damit verbundenen Daten (Darunter auch eingetragene Server, Kommentare, Bewertungen, Stimmen und Beitr&auml;ge) unwiderruflich gel&ouml;scht. Dieser Vorgang kann nicht r&uuml;ckg&auml;ngig gemacht werden!",
+		"header3"						:	"Email Benachrichtigungen",
+		"header3_help"					:	"",
+
+		"display": {
+			"last_activity"				:	"Zuletzt aktiv: "
+		},
+
+		"input": {
+			"current_password"			:	"Aktuelles Passwort",
+			"new_password"				:	"Neues Passwort",
+			"repeat_password"			:	"Passwort wiederholen",
+			"email"						:	"Email-Adresse",
+			"username"					:	"Benutzername",
+			"name"						:	"Name",
+			"description"				:	"Kurzbeschreibung",
+			"avatar"					:	"Avatar &auml;ndern",
+			"avatar_help"				: 	"Nur JPG, JPEG, PNG Formate erlaubt !",
+			"avatar_selected"			:	"<span class=\"green\"><i class=\"fa fa-check\"></i> Avatar ausgew&auml;hlt !</span> <span id=\"avatar-file-remove\" class=\"red clickable\" data-toggle=\"tooltip\" title=\"Datei entfernen\"><i class=\"fa fa-trash-alt\"></i></span>",
+			"profilecover"				:	"Profilcover &auml;ndern"
+		},
+
+		"error_message": {
+			"email_exists"				: "Tut uns Leid, aber diese Email-Adresse wird bereits verwendet !",
+			"invalid_email"				: "Du hast eine ung&uuml;ltige Email-Adresse angegeben !",
+			"long_description"			: "Deine Kurzbeschreibung ist zu lang",
+			"invalid_current_password"	: "Dein aktuelles Passwort stimmt nicht !",
+			"short_password"			: "Dein Passwort ist zu kurz. Es sollte aus mindestens 6 Zeichen bestehen!",
+			"passwords_not_matching"	: "Die eingegebenen Passw&ouml;rter stimmen nicht &uuml;berein!",
+			"name_length"				: "Der Benutzername muss zwischen 3 und 32 Zeichen haben!",
+			"user_exists"				: "Es tut uns Leid, aber der Benutzername \"<strong><i>%s</i></strong>\" existiert bereits!",
+			"small_avatar"				: "Dein gew&auml;hlter Avatar ist zu klein, Er sollte mindestens 165x165 Pixel haben !",
+			"not_writeable"				: "The <strong>uploads/avatars</strong> and / or <strong>uploads/avatars/thumbs</strong> folders are not writeable ! (admin only message)"
+		},
+
+		"success_message": {
+			"account_updated"			: "Dein Benutzerkonto wurde aktualisiert !",
+			"username_updated"			: "Dein Benutzerkonto wurde aktualisiert - Bitte melde dich neu an !",
+			"password_updated"			: "Dein Passwort wurde aktualisiert - Bitte melde dich neu an !"
+		}
+	},
+
+
+	"reset_password": {
+		"pagetitle"						: "Passwort zur&uuml;cksetzen",
+
+		"input": {
+			"new_password"				: "Neues Passwort",
+			"repeat_password"			: "Passwort wiederholen"
+		},
+
+		"error_message": {
+			"short_password"			: "Dein Passwort ist zu kurz. Es sollte aus mindestens 6 Zeichen bestehen!",
+			"passwords_not_matching"	: "Die eingegebenen Passw&ouml;rter stimmen nicht &uuml;berein!"
+		},
+
+		"success_message": {
+			"password_updated"			: "Dein Passwort wurde aktualisiert! Du kannst dich nun mit deinem neuen Passwort anmelden!"
+		}
+	},
+
+
+	"login": {
+		"pagetitle"						:	"Anmelden",
+		
+		"input": {
+			"username" 					:	"Benutzername oder Email-Adresse",
+			"password"					:	"Passwort",
+			"remember_me"				:	"Angemeldet bleiben"
+		},
+
+		"button": {
+			"register"					:	"Neues Benutzerkonto anlegen",
+			"lost_password"				:	"Passwort vergessen",
+			"resend_activation"			:	"Neuer Aktivierungslink"
+		},
+
+		"info_message": {
+			"logged_in"					:	"Sch&ouml;n, dass du wieder da bist!"
+		},
+
+		"error_message": {
+			"wrong_login_credentials"	:	"Deine Kombination aus Benutzername und Passwort ist nicht korrekt!",
+			"user_not_active"			:	"Dein Benutzerkonto wurde noch nicht aktiviert oder wurde gesperrt."
+		}
+	},
+
+
+	"lost_password": {
+		"pagetitle"						: "Passwort vergessen?",
+
+		"input": {
+			"email" 					: "Email-Adresse"
+		},
+
+		"notice_message": {
+			"success"					: "Wir haben an die von dir angegebene Email-Adresse eine Email geschickt, sofern diese in unserer Datenbank ist.<br>Bitte kontrolliere deinen Posteingang."
+		},
+
+		"email": {
+			"title"						: "MCList.eu - Passwort vergessen",
+			"content" 					: "Wir haben einen Link zum zur&uuml;cksetzen deines Passwortes generiert. <br>Solltest du diesen nicht angefordert haben, klicke diesen bitte nicht an.<br><br>%sreset-password/%s/%s"
+		}
+	},
+
+	"resend_activation": {
+		"pagetitle"						: "Neuer Aktivierungslink",
+
+		"input": {
+			"email" 					: "Email-Adresse"
+		},
+
+		"notice_message": {
+			"success"					: "Sofern die angegebene Email-Adresse in unserem System ist, haben wir einen neuen Aktivierungslink an diese verschickt!"
+		},
+
+		"email": {
+			"title"						: "MCList.eu - Aktiviere dein Benutzerkonto",
+			"content"					: "Willkommen bei MCList.eu!<br><br>Um dein Benutzerkonto zu aktivieren, folge bitte dem folgenden Link:<br><br>%sactivate/%s/%s"
+		}
+	},
+
+
+	"register": {
+		"pagetitle"						: "Benutzerkonto anlegen",
+		"invite"						: "Du wurdest von <i>%s</i> eingeladen.",
+
+		"input": {
+			"username" 					:	"Benutzername",
+			"name"						:	"Name",
+			"email"						:	"Email-Adresse",
+			"password"					:	"Passwort",
+			"repeat_password"			:	"Passwort wiederholen",
+			"terms"						:	"Hiermit stimme ich den <a href=\"terms-of-service\" target=\"_blank\">Nutzungsbedingungen</a> und den <a href=\"privacy-policy\" target=\"_blank\">Datenschutzrichtlinien</a> zu."
+		},
+
+		"error_message": {
+			"username_length"			:	"Dein gew&auml;hlter Benutzername ist zu kurz!",
+			"name_length"				:	"Name muss zwischen 3 und 32 Zeichen haben!",
+			"user_exists"				:	"Es tut uns Leid, aber der Benutzername \"<strong><i>%s</i></strong>\" existiert bereits!",
+			"email_exists"				:	"Die angegebene Email-Adresse wird bereits verwendet!",
+			"invalid_email"				:	"Die angegebene Email-Adresse ist ung&uuml;ltig!",
+			"banned_host"				:	"Anmeldung mit dieser Email-Dom&auml;ne nicht m&ouml;glich! Diese ist vom System gesperrt!<br>Solltest du der Ansicht sein, dies ist ein Irrtum, nimm bitte Kontakt mit uns auf, um die Umst&auml;nde aufzukl&auml;ren.",
+			"short_password"			:	"Das gew&auml;hlte Passwort ist zu kurz! Dies sollte mindestens 6 Zeichen enthalten.",
+			"username_characters"		:	"Der gew&auml;hlte Benutzername enth&auml;lt ung&uuml;ltige Zeichen! Bitte nur Buchstaben, Zahlen und '.' oder '_' nutzen.",
+			"terms"						:	"Du musst unsere Nutzungsbedingungen und Datenschutzrichtlinien akzeptieren!"
+		},
+
+		"email": {
+			"title"						: "Willkommen bei %s",
+			"content"					: "Du hast es fast geschafft!<br>Bitte aktiviere dein Benutzerkonto, indem du einfach dem folgenden Link folgst:<br><br><a href=\"%sactivate/%s/%s\">Benutzerkonto aktivieren</a>"
+		},
+
+		"email_new_account": {
+			"title"						: "Willkommen bei %s",
+			"content"					: "We generated a separate login for you with the following details <br /><br /> <strong>Username:</strong> %s <br /> <strong>Password:</strong> %s"
+		},
+
+		"success_message": {
+			"registration"				: "Dein Benutzerkonto wurde erfolgreich erstellt, bitte pr&uuml;fe dein Email Postfach und klicke auf den Aktivierungslink, den wir dir geschickt haben.",
+			"login"						: "Willkommen in der Gemeinschaft! Es freut uns, dass du bei uns bist!"
+		}
+	},
+
+	"store": {
+		"title"								: "Store",
+		"menu"								: "Store",
+		"header"							: "Store",
+		"confirm_purchase"					: "Are you sure you want to purchase this package ?",
+
+		"display": {
+			"state"							: "<strong>Account Balance:</strong> %s Points. Add funds to your account through <strong><a href=\"store-pay-paypal\">Paypal</a></strong>, <strong><a href=\"store-pay-stripe\">Stripe</a></strong>",
+			"purchase"						: "Purchase now",
+			"info"							: "1 Point is equal to 1 unit of the website's currency ( %s )."
+		},
+
+		"no_ads": {
+			"title"							: "No Ads",
+			"description"					: "With the No Ads package you will not get any ads on the website and you show your support to the team for <strong>%s Points</strong>"
+		},
+
+		"verified_badge": {
+			"title"							: "Verified Badge",
+			"description"					: "Get the verified badge besides your username permanently for <strong>%s Points</strong>"
+		},
+
+		"colored": {
+			"title"							: "Colored Links",
+			"description"					: "Stand out from the crowd and add colors to your links for <strong>%s Points</strong>"
+		},
+
+		"info_message": {
+			"stripe_not_available"			: "We are sorry but Stripe payments are disabled at this moment in time..",
+			"paypal_not_available"			: "We are sorry but Paypal payments are disabled at this moment in time..",
+			"canceled"						: "It appears you have canceled your order, we couldn't process your payment."
+		},
+
+		"paypal": {
+			"header"						: "Pay with PayPal",
+			"amount"						: "Select an amount of points"
+		},
+
+		"stripe": {
+			"header"						: "Pay with Stripe",
+			"amount"						: "Select an amount of points",
+			"description"					: "Points for the account"
+		},
+
+
+		"error_message": {
+			"already_no_ads"				: "It appears that your account already purchased the no ads package, you can't buy this package again.",
+			"already_verified"				: "It appears that your account is already verified, you can't buy this package again.",
+			"already_colored"				: "It appears that your account already purchased the colored feature, you can't buy this package again.",
+			"normal"						: "Something happened while we tried to process your payment..",
+			"not_enough_funds"				: "It appears that you do not have enough funds to purchase this package. Please add more funds to your wallet and then try again.",
+			"allowed_packages"				: "Please try purchasing a package that is listed below."
+		},
+
+		"success_message": {
+			"paid"							: "You just got new funds into your account !",
+			"purchased"						: "You just purchased that package !"
+		}
+	}
+}
